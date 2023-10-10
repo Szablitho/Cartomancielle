@@ -1,0 +1,10 @@
+:root {
+  --color-green: #0c4002;
+  --color-black: #231f20;
+  --color-yellow: #c4bc07;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Acme", sans-serif;
+}
