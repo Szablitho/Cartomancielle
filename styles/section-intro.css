@@ -1,6 +1,6 @@
 .card-horizontal {
   display: flex;
-  background: url(/images/marble_intro_background.png);
+  background: url(/images/marble_3.png) no-repeat;
   height: 100vh;
   height: 100dvh;
 }
