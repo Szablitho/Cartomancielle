@@ -3,10 +3,15 @@
   --color-black: #231f20;
   --color-yellow: #c4bc07;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
 body {
   box-sizing: border-box;
   margin: 0;
   font-family: "Acme", sans-serif;
+  scroll-snap-type: x proximity;
 }
 h1,
 h2,
@@ -20,7 +25,16 @@ h6 {
 }
 p {
   margin: 1rem 0;
+  font-family: "Lora", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Inlander Smooth", serif;
+}
+h3 {
+  font-family: Belleza, sans-serif;
 }
 section {
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
+  scroll-snap-align: center;
 }
