@@ -5,9 +5,9 @@ header {
 }
 header h1 {
   font-size: 7rem;
-  font-family: "Averia Serif Libre", serif;
   color: var(--color-green);
   margin: 1rem auto 2rem;
+  text-transform: uppercase;
 }
 .logo-container {
   display: flex;
@@ -53,7 +53,7 @@ header > img {
   fill: var(--color-green);
 } */
 
-@media (max-width: 900px) {
+@media (max-width: 1180px) {
   header h1 {
     font-size: 5rem;
   }
@@ -61,7 +61,7 @@ header > img {
     width: 2rem;
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 880px) {
   header > img {
     height: 40vh;
   }
@@ -72,11 +72,16 @@ header > img {
     width: 1.5rem;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 720px) {
   header h1 {
     font-size: 3rem;
   }
   .logo-container > .icons svg {
     width: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 2rem;
   }
 }
