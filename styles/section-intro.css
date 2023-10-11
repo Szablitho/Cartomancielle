@@ -1,0 +1,53 @@
+.card-horizontal {
+  display: flex;
+  background: url(/images/marble_intro_background.png);
+  height: 100vh;
+  height: 100dvh;
+}
+.card-horizontal img {
+  width: 40vw;
+  height: auto;
+  object-fit: cover;
+}
+.card-horizontal .card-body h2 {
+  text-align: center;
+  color: var(--color-green);
+}
+.card-horizontal .card-body {
+  text-align: justify;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  padding: 2rem 5rem;
+  font-size: 1.25rem;
+  z-index: 10;
+}
+.cartomancielle-cat-img {
+  width: 8rem;
+  height: 12.5rem;
+  background-color: blueviolet;
+  margin: 0 auto;
+}
+@media (max-width: 1100px) {
+  .card-horizontal {
+    flex-flow: column nowrap;
+    background: transparent;
+  }
+  .card-horizontal img {
+    width: 60vw;
+    margin: 2rem auto;
+    border-radius: 3px;
+  }
+  .card-body {
+    background: url(/images/marble_intro_background.png);
+    padding: 3rem;
+  }
+}
+@media (max-width: 375px) {
+  .card-body h2 {
+    font-size: 1.5rem;
+  }
+  .card-body p {
+    font-size: 0.875rem;
+  }
+}
