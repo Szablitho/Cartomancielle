@@ -8,3 +8,19 @@ body {
   margin: 0;
   font-family: "Acme", sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-family: "Averia Serif Libre", serif;
+  margin: 2rem 0;
+}
+p {
+  margin: 1rem 0;
+}
+section {
+  margin: 1.5rem 0;
+}
