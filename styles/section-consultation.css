@@ -3,18 +3,18 @@
 }
 .consultation {
   background: url("/images/marble_3.png") no-repeat;
+  /* background-blend-mode: lighten; */
+  background-size: cover;
   height: 100vh;
   height: 100dvh;
   position: relative;
   overflow: hidden;
-  background-size: contain;
-  background-position-x: -10vw;
+  background-position-x: min(-20vw, -15rem);
 }
 
 .consultation h2 {
   color: var(--color-green);
   padding: 0.5rem;
-  font-size: 2rem;
 }
 .consultation-aspects {
   display: flex;
@@ -24,9 +24,7 @@
 }
 .consultation-aspects h3 {
   font-weight: 400;
-  font-size: 1.5rem;
   text-decoration: underline;
-
   padding-inline: 2rem;
 }
 ul {
@@ -60,4 +58,18 @@ ul > li svg {
   width: auto;
   right: -5vw;
   top: -5vh;
+}
+
+@media (max-width: 1459px) {
+  .consultation {
+    overflow: initial;
+    height: auto;
+    text-align: center;
+  }
+  .cards-img-absolute {
+    display: none;
+  }
+  .consultation-aspects {
+    transform: none;
+  }
 }
