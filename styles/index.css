@@ -31,10 +31,53 @@ h1,
 h2 {
   font-family: "Inlander Smooth", serif;
 }
+h2 {
+  font-size: 3rem;
+}
 h3 {
   font-family: Belleza, sans-serif;
+  font-size: 2rem;
 }
 section {
   margin-top: 1.5rem;
   scroll-snap-align: center;
+}
+@media (max-width: 1180px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 880px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
 }
