@@ -1,6 +1,7 @@
 .card-horizontal {
   display: flex;
   background: url(/images/marble_3.png) no-repeat;
+  background-size: cover;
   height: 100vh;
   height: 100dvh;
 }
@@ -32,6 +33,7 @@
   .card-horizontal {
     flex-flow: column nowrap;
     background: transparent;
+    height: auto;
   }
   .card-horizontal img {
     width: 60vw;
