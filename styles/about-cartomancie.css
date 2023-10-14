@@ -1,0 +1,38 @@
+.about-cartomancie {
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 3rem 5rem 0;
+  font-size: 1.5rem;
+  position: relative;
+}
+.right-star-icon {
+  position: absolute;
+  width: 30vw;
+  right: 0;
+  top: 0;
+}
+.left-star-icon {
+  position: absolute;
+  width: 30vw;
+  left: 0;
+  bottom: 0;
+  transform: rotate(180deg);
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  min-width: 14rem;
+  max-width: 60%;
+  margin: 2rem auto 0;
+}
+.cards-grid img {
+  width: 50%;
+  height: auto;
+}
+.cards-grid > :nth-child(n + 1) {
+  transform: rotate(15deg);
+}
+.cards-grid > :nth-child(2n) {
+  transform: rotate(-15deg);
+}
