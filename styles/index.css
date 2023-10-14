@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Inlander Smooth";
+  src: url("/font/inlander-retro-display-font/Inlander/Inlander\ Smooth.woff")
+      format("woff"),
+    url("/font/inlander-retro-display-font/Inlander/Inlander\ Smooth.otf")
+      format("otf"),
+    url("/font/inlander-retro-display-font/Inlander/Inlander\ Smooth.ttf")
+      format("ttf");
+}
 :root {
   --color-green: #0c4002;
   --color-black: #231f20;
@@ -20,8 +29,8 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
-  font-family: "Averia Serif Libre", serif;
   margin: 2rem 0;
+  letter-spacing: 3px;
 }
 p {
   margin: 1rem 0;
@@ -29,7 +38,9 @@ p {
 }
 h1,
 h2 {
-  font-family: "Inlander Smooth", serif;
+  font-family: "Inlander Smooth", sans-serif;
+  color: var(--color-green);
+  text-align: center;
 }
 h2 {
   font-size: 3rem;
@@ -75,9 +86,9 @@ section {
 }
 @media (max-width: 500px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
