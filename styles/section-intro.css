@@ -5,7 +5,7 @@
   height: 100vh;
   height: 100dvh;
 }
-.card-horizontal img {
+.card-horizontal > img {
   width: 40vw;
   height: auto;
   object-fit: cover;
@@ -18,16 +18,27 @@
   text-align: justify;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 2rem 5rem;
   font-size: 1.25rem;
   z-index: 10;
 }
-.cartomancielle-cat-img {
-  width: 8rem;
-  height: 12.5rem;
-  background-color: blueviolet;
+.cat-box {
   margin: 0 auto;
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+}
+.cat-box > :nth-child(1) {
+  margin: 0 auto;
+  width: 100%;
+}
+.cat-box > :nth-child(2) {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  right: -2%;
+  top: -29%;
 }
 @media (max-width: 1100px) {
   .card-horizontal {
@@ -35,21 +46,24 @@
     background: transparent;
     height: auto;
   }
-  .card-horizontal img {
+  .card-horizontal > img {
     width: 60vw;
     margin: 2rem auto;
     border-radius: 3px;
   }
   .card-body {
-    background: url(/images/marble_intro_background.png);
+    background: url(/images/marble_3.png);
     padding: 3rem;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .card-body h2 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .card-body p {
     font-size: 0.875rem;
+  }
+  .cat-box {
+    width: 80%;
   }
 }
