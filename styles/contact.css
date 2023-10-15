@@ -1,0 +1,54 @@
+.contact {
+  margin: 5rem 0;
+}
+.contact h2 {
+  margin: 3rem;
+  position: relative;
+  z-index: 20;
+}
+.contact-body {
+  padding: 1rem 3rem;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+.contact-body p {
+  position: relative;
+  z-index: 20;
+}
+.contact-body > img {
+  height: 28rem;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.25;
+  left: calc(50% - 14rem);
+  z-index: 10;
+}
+.contact .cards-img > img {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+.contact-body .contact-link {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  position: relative;
+  z-index: 20;
+  color: var(--color-black);
+  margin: 2rem auto;
+  background: url(/images/background-green-paint.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 200px;
+  padding: 1.3rem 1rem;
+  text-transform: uppercase;
+  font-family: Acme, serif;
+  text-wrap: balance;
+}
