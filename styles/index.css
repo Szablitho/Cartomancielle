@@ -35,6 +35,8 @@ h6 {
 p {
   margin: 1rem 0;
   font-family: "Lora", sans-serif;
+  color: var(--color-black);
+  font-size: 1.2rem;
 }
 h1,
 h2 {
@@ -71,6 +73,9 @@ section {
   h3 {
     font-size: 1.5rem;
   }
+}
+.bold {
+  font-weight: bold;
 }
 
 @media (max-width: 720px) {
