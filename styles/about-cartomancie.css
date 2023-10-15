@@ -5,6 +5,7 @@
   padding: 3rem 5rem 0;
   font-size: 1.5rem;
   position: relative;
+  text-wrap: balance;
 }
 .right-star-icon {
   position: absolute;
@@ -27,6 +28,7 @@
   margin: 2rem auto 0;
 }
 .cards-grid img {
+  min-width: 40px;
   width: 50%;
   height: auto;
 }
