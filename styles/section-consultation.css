@@ -2,7 +2,7 @@
   --lists-icon-size: 1.3rem;
 }
 .consultation {
-  background: url("images/marble_3.png") no-repeat;
+  background: url("../images/marble_3.png") no-repeat;
   background-size: cover;
   height: 100vh;
   height: 100dvh;

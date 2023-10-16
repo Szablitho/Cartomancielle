@@ -1,6 +1,6 @@
 .card-horizontal {
   display: flex;
-  background: url(images/marble_3.png) no-repeat;
+  background: url(../images/marble_3.png) no-repeat;
   background-size: cover;
   height: 100vh;
   height: 100dvh;
@@ -52,7 +52,7 @@
     border-radius: 3px;
   }
   .card-body {
-    background: url(images/marble_3.png);
+    background: url(../images/marble_3.png);
     padding: 3rem;
   }
 }

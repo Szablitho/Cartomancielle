@@ -43,7 +43,7 @@
   z-index: 20;
   color: var(--color-black);
   margin: 2rem auto;
-  background: url(images/background-green-paint.png) no-repeat;
+  background: url(../images/background-green-paint.png) no-repeat;
   background-size: contain;
   background-position: center;
   width: 200px;
@@ -51,4 +51,9 @@
   text-transform: uppercase;
   font-family: Acme, serif;
   text-wrap: balance;
+}
+@media (max-width: 839px) {
+  .contact .cards-img > img {
+    object-fit: contain;
+  }
 }
