@@ -2,7 +2,6 @@ header {
   padding: 0;
   padding-top: 2rem;
   text-align: center;
-  /* height: 100dvh; */
 }
 header h1 {
   font-size: 7rem;
@@ -10,9 +9,6 @@ header h1 {
   margin: 1rem auto 2rem;
   text-transform: uppercase;
 }
-/* header nav {
-  height: 50%;
-} */
 .logo-container {
   display: flex;
   justify-content: space-between;
@@ -53,9 +49,6 @@ header > img {
   height: auto;
   color: var(--color-green);
 }
-/* .logo-container > .icons svg circle {
-  fill: var(--color-green);
-} */
 
 @media (max-width: 1180px) {
   header h1 {

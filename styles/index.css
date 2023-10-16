@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Inlander Smooth";
-  src: url("/font/inlander-retro-display-font/Inlander/Inlander\ Smooth.woff")
+  src: url("font/inlander-retro-display-font/Inlander/Inlander\ Smooth.woff")
       format("woff"),
-    url("/font/inlander-retro-display-font/Inlander/Inlander\ Smooth.otf")
+    url("font/inlander-retro-display-font/Inlander/Inlander\ Smooth.otf")
       format("otf"),
-    url("/font/inlander-retro-display-font/Inlander/Inlander\ Smooth.ttf")
+    url("font/inlander-retro-display-font/Inlander/Inlander\ Smooth.ttf")
       format("ttf");
 }
 :root {
