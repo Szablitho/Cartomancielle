@@ -55,6 +55,9 @@ section {
   margin-top: 1.5rem;
   scroll-snap-align: center;
 }
+img {
+  pointer-events: none;
+}
 @media (max-width: 1180px) {
   h1 {
     font-size: 5rem;
