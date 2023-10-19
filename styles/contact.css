@@ -17,15 +17,16 @@
   z-index: 20;
 }
 .contact-body > img {
-  height: 28rem;
-  width: auto;
-  max-width: 100%;
+  height: auto;
+  width: 28rem;
+  max-width: 60%;
   margin: 0 auto;
   object-fit: contain;
   position: absolute;
   bottom: 0;
   opacity: 0.25;
-  left: calc(50% - 14rem);
+  left: calc(50vw - 14rem);
+  right: calc(50vw - 14rem);
   z-index: 10;
 }
 .contact .cards-img > img {
