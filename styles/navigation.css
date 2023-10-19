@@ -4,7 +4,6 @@ header {
   text-align: center;
 }
 header h1 {
-  font-size: 7rem;
   color: var(--color-green);
   margin: 1rem auto 2rem;
   text-transform: uppercase;
@@ -30,7 +29,7 @@ header h1 {
 }
 header > img {
   width: 100%;
-  height: min(50vh, 40rem);
+  height: 80vh;
   object-fit: cover;
   max-height: max-content;
 }
@@ -45,40 +44,7 @@ header > img {
   width: fit-content;
 }
 .logo-container > .icons svg {
-  width: 3rem;
+  width: clamp(1rem, 2vw, 2rem);
   height: auto;
   color: var(--color-green);
-}
-
-@media (max-width: 1180px) {
-  header h1 {
-    font-size: 5rem;
-  }
-  .logo-container > .icons svg {
-    width: 2rem;
-  }
-}
-@media (max-width: 880px) {
-  header > img {
-    height: 40vh;
-  }
-  header h1 {
-    font-size: 4rem;
-  }
-  .logo-container > .icons svg {
-    width: 1.5rem;
-  }
-}
-@media (max-width: 720px) {
-  header h1 {
-    font-size: 3rem;
-  }
-  .logo-container > .icons svg {
-    width: 1rem;
-  }
-}
-@media (max-width: 500px) {
-  header h1 {
-    font-size: 2rem;
-  }
 }
