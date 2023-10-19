@@ -57,10 +57,38 @@ h3 {
 section {
   margin-top: 1.5rem;
   scroll-snap-align: center;
+  animation: fade-in-scroll linear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 50%;
+  animation-duration: 1ms; /* for Firefox bug */
 }
 img {
   pointer-events: none;
 }
 .bold {
   font-weight: bold;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-in-from-right {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes fade-in-scroll {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
