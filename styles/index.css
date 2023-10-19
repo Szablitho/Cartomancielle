@@ -59,7 +59,7 @@ section {
   scroll-snap-align: center;
   animation: fade-in-scroll linear both;
   animation-timeline: view();
-  animation-range: entry 20% cover 50%;
+  animation-range: cover 0% contain 0%;
   animation-duration: 1ms; /* for Firefox bug */
 }
 img {
@@ -85,10 +85,16 @@ img {
   }
 }
 @keyframes fade-in-scroll {
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  100% {
     opacity: 1;
   }
 }
