@@ -10,11 +10,11 @@
   height: auto;
   object-fit: cover;
 }
-.card-horizontal .card-body h2 {
+.card-body h2 {
   text-align: center;
   color: var(--color-green);
 }
-.card-horizontal .card-body {
+.card-body {
   text-align: justify;
   display: flex;
   flex-flow: column nowrap;
@@ -52,8 +52,9 @@
     border-radius: 3px;
   }
   .card-body {
-    background: url(../images/marble_3.png);
+    background: url(../images/marble_3.png) no-repeat;
     padding: 3rem;
+    background-position-x: -40vw;
   }
 }
 @media (max-width: 500px) {
